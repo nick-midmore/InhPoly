@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicles", "Vehicles\Vehicles.csproj", "{AD534F81-7F91-4B48-BBB2-B0802BE9A1D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicles", "Vehicles\Vehicles.csproj", "{AD534F81-7F91-4B48-BBB2-B0802BE9A1D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{DCF2B3D9-3D39-4A37-81A8-37EDD90D2749}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AD534F81-7F91-4B48-BBB2-B0802BE9A1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD534F81-7F91-4B48-BBB2-B0802BE9A1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD534F81-7F91-4B48-BBB2-B0802BE9A1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF2B3D9-3D39-4A37-81A8-37EDD90D2749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF2B3D9-3D39-4A37-81A8-37EDD90D2749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF2B3D9-3D39-4A37-81A8-37EDD90D2749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF2B3D9-3D39-4A37-81A8-37EDD90D2749}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

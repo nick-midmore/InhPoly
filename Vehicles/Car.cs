@@ -9,7 +9,7 @@ namespace Vehicles
 {
     public class Car : Vehicle
     {
-        public Car(string make, string model) : base(make, model, new CarEngine(150, Engine.fuelType.Diesel))
+        public Car(string make, string model) : base(make, model, new CarEngine(3, Engine.fuelType.Diesel))
         {
            
         }
