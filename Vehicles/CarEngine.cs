@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Vehicles
 {
-    public class Car : Vehicle
+    internal class CarEngine : Engine
     {
-        public Car(string make, string model) : base(make, model, new CarEngine(150, Engine.fuelType.Diesel))
+        public CarEngine(int horsepower, fuelType fueltype): base(horsepower, fueltype)
         {
-           
+        
         }
     }
 }
