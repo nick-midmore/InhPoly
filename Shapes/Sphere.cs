@@ -15,7 +15,7 @@ namespace Shapes
 
         public override double CalculateVolume()
         {
-            return (4/3 * Math.PI * Math.Pow((base.BaseShape as Circle).Radius,3)) ;
+            return ((4.00/3.00) * Math.PI * Math.Pow((base.BaseShape as Circle).Radius,3));
         }
     }
 }
