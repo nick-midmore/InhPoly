@@ -12,5 +12,10 @@ namespace Shapes
         {
             base.BaseShape = shape;
         }
+
+        public override double CalculateVolume()
+        {
+            return (4/3 * Math.PI * Math.Pow((base.BaseShape as Circle).Radius,3)) ;
+        }
     }
 }

@@ -15,5 +15,11 @@ namespace Shapes
             Height = height;
             base.BaseShape = shape;
         }
+
+        public override double CalculateVolume()
+        {
+            return (base.BaseShape as Triangle).CalculateArea() * Height / 3;
+        }
+
     }
 }
