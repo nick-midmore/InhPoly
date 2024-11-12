@@ -9,10 +9,10 @@ namespace Vehicles
 {
     internal class MotorcycleEngine : Engine
     {
-        
+
         public MotorcycleEngine(int horsepower, fuelType fueltype) : base(horsepower, fueltype)
         {
-            ;
+
         }
     }
 }
