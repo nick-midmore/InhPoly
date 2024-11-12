@@ -40,6 +40,11 @@
                 shape3d.CalculateVolume());
             }
 
+            Prism test = new Prism(new Rectangle(5.0, 10.0), 15.0);
+            Console.WriteLine(test.CalculateVolume());
+            Prism testCircle = new Prism(new Circle(10.0), 30.0);
+            Console.WriteLine(testCircle.CalculateVolume());
+
         }
     }
 }

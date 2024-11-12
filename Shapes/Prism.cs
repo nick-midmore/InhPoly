@@ -9,16 +9,18 @@ namespace Shapes
     public class Prism : Shape3D
     {
         public double Height { get; set; }
+        //public Shape CrossSectionShape { get; set; }
 
-        public Prism(Triangle shape, double height)
+        public Prism(Shape shape, double height)
         {
             Height = height;
             base.BaseShape = shape;
+            //this.CrossSectionShape = shape;
         }
 
         public override double CalculateVolume()
         {
-            return (base.BaseShape as Triangle).CalculateArea() * Height;
+            return base.BaseShape.CalculateArea() * Height;
         }
     }
 }
