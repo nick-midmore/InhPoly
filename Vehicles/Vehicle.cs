@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
+using Shapes;
 
 namespace Vehicles
 {
@@ -12,12 +14,14 @@ namespace Vehicles
         public string Model { get; set; }
         public int Speed { get; set; }
         public Engine EngineType { get; set; }
+        public Shape3D VehicleShape { get; set; }
 
-        public Vehicle(string make, string model, Engine engineType)
+        public Vehicle(string make, string model, Engine engineType, Shape3D shape)
         {
             Make = make;
             Model = model;
             EngineType = engineType;
+            VehicleShape = shape;
         }
 
         public void StartEngine()
