@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Shapes
 {
-    public abstract class Shape
+    public abstract class Shape3D
     {
-        public abstract double CalculateArea();
-        
+        public Shape BaseShape { get; set; }
+
+        public abstract double CalculateVolume();
+
     }
 }

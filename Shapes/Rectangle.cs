@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shapes
 {
-    internal class Rectangle : Shape
+    public class Rectangle : Shape
     {
         public double Length { get; set; }
         public double Width { get; set; }
@@ -14,6 +14,12 @@ namespace Shapes
         public override double CalculateArea()
         {
             return Length * Width;
+        }
+
+        public Rectangle(double length, double width)
+        {
+            Length = length;
+            Width = width;
         }
     }
 }

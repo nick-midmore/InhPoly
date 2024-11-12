@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Shapes
 {
-    public abstract class Shape
+    public class Sphere : Shape3D
     {
-        public abstract double CalculateArea();
-        
+        public Sphere(Circle shape) 
+        {
+            base.BaseShape = shape;
+        }
     }
 }
